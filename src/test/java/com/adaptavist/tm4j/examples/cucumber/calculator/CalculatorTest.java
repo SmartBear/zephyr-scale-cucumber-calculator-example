@@ -16,17 +16,17 @@ public class CalculatorTest {
     }
 
     @When("^I input the number (\\d+)$")
-    public void numbersAreMultiplied(long numberInput) {
+    public void iInputTheNumber(long numberInput) {
         c.input(numberInput);
     }
 
     @And("^I press the multiplication button$")
-    public void numbersAreMultiplied() {
+    public void iPressTheMultiplicationButton() {
 		c.multiply();
     }
 
     @Then("^I should see the result (\\d+) on the calculator display$")
-    public void numbersAreSummedUp(int expectedResult) {
+    public void iShouldSeeTheResultOnTheCalculatorDisplay(long expectedResult) {
         assertEquals(expectedResult, c.getDisplayResult());
     }
 }
