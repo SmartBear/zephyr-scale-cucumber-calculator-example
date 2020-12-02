@@ -1,4 +1,4 @@
-package com.adaptavist.tm4j.examples.cucumber.calculator;
+package com.smartbear.zephyrscale.examples.cucumber.calculator;
 
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
